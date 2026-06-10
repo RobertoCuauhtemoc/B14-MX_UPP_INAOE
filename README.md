@@ -1,11 +1,10 @@
 # B14-MX_UPP_INAOE
 
-**ElectrochemID**
+## ElectrochemID
 
 An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
 
-#
-**What is electrochem id?**
+## What is electrochem id?
 
 Conventional electrochemical sensors are designed to detect a single specific moleculeusing biorecognition elements
 such as enzymes, antibodies, or functionalized materials. This approach, although precise, involves an enormous cost:
@@ -28,3 +27,11 @@ by an integrated potentiostat with a simplified architecture and moderate resolu
 The project does NOT aim to compete with high-precision laboratory instrumentation. Its success is measured by the 
 ability to capture sufficient electrochemical information for classification tasks, not by the accuracy in the 
 quantification of specific analytes.
+
+## Team members
+
+- ERICK ESAU CASTAÑON HUERTA
+- ROBERTO CUAUHTEMOC GOMEZ
+- LUIS VIDAL GUZMAN ARROYO
+- MARIANA ROMERO AVENDAÑO
+- LUIS CARLOS ALVAREZ SIMÓN (Team Lead)
