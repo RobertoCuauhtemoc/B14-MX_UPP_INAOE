@@ -1,5 +1,30 @@
 # B14-MX_UPP_INAOE
 
-**Electr ochemID**
+**ElectrochemID**
 
 An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
+
+#
+**What is electrochem id?**
+
+Conventional electrochemical sensors are designed to detect a single specific moleculeusing biorecognition elements
+such as enzymes, antibodies, or functionalized materials. This approach, although precise, involves an enormous cost:
+it requires developing a completely different sensor for each application. Development times are extended, 
+manufacturing costs scale up, and the system's scalability is limited to what it was originally designed for.
+
+ElectroChemID proposes the design, implementation, and validation of a low-cost potentiostat ASIC,developed using 
+open-source microelectronics tools. The system is oriented toward the acquisition of cyclic voltammetry signals 
+using commercial screen-printed electrodes (SPE), commonly used in laboratories for their affordable cost, 
+portability, and standard three-electrode configuration (WE, CE, RE).
+
+The project demonstrates that a simplified architecture based on moderate-resolution DAC and ADC converters (8 bits)is 
+capable of capturing electrochemical fingerprints characteristic of different substances. In a later phase, these
+signals will be exploited using artificial intelligence techniques for sample classification and characterization tasks.
+
+The signals obtained thru cyclic voltammetry using commercial screen-printed electrodes contain sufficient 
+discriminative information to allow sample classification using artificial intelligence algorithms, even when acquired 
+by an integrated potentiostat with a simplified architecture and moderate resolution.
+
+The project does NOT aim to compete with high-precision laboratory instrumentation. Its success is measured by the 
+ability to capture sufficient electrochemical information for classification tasks, not by the accuracy in the 
+quantification of specific analytes.
