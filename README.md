@@ -1,5 +1,4 @@
-# B14-MX_UPP_INAOE
-## ElectrochemID
+## Team: B14-MX_UPP_INAOE <br>Project: ElectrochemID
 
 An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
 
