@@ -1,20 +1,31 @@
 # B14-MX_UPP_INAOE
-
 ## ElectrochemID
 
 An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
 
+## Team members
+
+|Github name|Name|Experience|Role|
+|-----------|----|----------|----|
+|---|Erick Esau Castañon Huerta|Undergraduate|Member|
+|RobertoCuauhtemoc|Roberto Cuauhtémoc Gomez|Undergraduate|Member|
+|VidalArroyo19|Luis Vidal Guzman Arroyo|Undergraduate|Member|
+|marianaromero12|Mariana Romero Avendaño|Undergraduate|Member|
+|lucaalsi|Luis Carlos Alvarez Simón|Graduate|Team lead|
+
 ## What is electrochem id?
+
+ElectroChemID proposes the design, implementation, and validation of a low-cost potentiostat ASIC,developed using 
+open-source microelectronics tools. The system is oriented toward the acquisition of cyclic voltammetry signals 
+using commercial screen-printed electrodes (SPE), commonly used in laboratories for their affordable cost, 
+portability, and standard three-electrode configuration (WE, CE, RE).
 
 Conventional electrochemical sensors are designed to detect a single specific moleculeusing biorecognition elements
 such as enzymes, antibodies, or functionalized materials. This approach, although precise, involves an enormous cost:
 it requires developing a completely different sensor for each application. Development times are extended, 
 manufacturing costs scale up, and the system's scalability is limited to what it was originally designed for.
 
-ElectroChemID proposes the design, implementation, and validation of a low-cost potentiostat ASIC,developed using 
-open-source microelectronics tools. The system is oriented toward the acquisition of cyclic voltammetry signals 
-using commercial screen-printed electrodes (SPE), commonly used in laboratories for their affordable cost, 
-portability, and standard three-electrode configuration (WE, CE, RE).
+
 
 The project demonstrates that a simplified architecture based on moderate-resolution DAC and ADC converters (8 bits)is 
 capable of capturing electrochemical fingerprints characteristic of different substances. In a later phase, these
@@ -28,14 +39,11 @@ The project does NOT aim to compete with high-precision laboratory instrumentati
 ability to capture sufficient electrochemical information for classification tasks, not by the accuracy in the 
 quantification of specific analytes.
 
-## Team members
+## Status
 
-|Github name|Name|Experience|Role|
-|-----------|----|----------|----|
-|---|Erick Esau Castañon Huerta|Undergraduate|Member|
-|RobertoCuauhtemoc|Roberto Cuauhtémoc Gomez|Undergraduate|Member|
-|VidalArroyo19|Luis Vidal Guzman Arroyo|Undergraduate|Member|
-|marianaromero12|Mariana Romero Avendaño|Undergraduate|Member|
-|lucaalsi|Luis Carlos Alvarez Simón|Graduate|Team lead|
+- [ ] Schematic
+- [ ] Simulation
+- [ ] Layout
+- [ ] LVS
 
 ## 
