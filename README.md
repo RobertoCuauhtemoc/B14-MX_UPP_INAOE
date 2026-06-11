@@ -29,12 +29,13 @@ ability to capture sufficient electrochemical information for classification tas
 quantification of specific analytes.
 
 ## Team members
-|Github name|Name|
-|-----------|----|
-|---|ERICK ESAU CASTAÑON HUERTA|
-|---|ROBERTO CUAUHTEMOC GOMEZ|
-|---|LUIS VIDAL GUZMAN ARROYO|
-|---|MARIANA ROMERO AVENDAÑO|
-|---|LUIS CARLOS ALVAREZ SIMÓN (Team Lead)|
+
+|Github name|Name|Experience|Role|
+|-----------|----|----------|----|
+|---|Erick Esau Castañon Huerta|Undergraduate|Member|
+|RobertoCuauhtemoc|Roberto Cuauhtémoc Gomez|Undergraduate|Member|
+|VidalArroyo19|Luis Vidal Guzman Arroyo|Undergraduate|Member|
+|marianaromero12|Mariana Romero Avendaño|Undergraduate|Member|
+|lucaalsi|Luis Carlos Alvarez Simón|Graduate|Team lead|
 
 ## 
