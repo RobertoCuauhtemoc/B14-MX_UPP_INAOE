@@ -13,6 +13,11 @@ An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprint
 |marianaromero12|Mariana Romero Avendaño|Undergraduate|Member|
 |lucaalsi|Luis Carlos Alvarez Simón|Graduate|Team lead|
 
+## Quick Links
+
+[Github repository](link)
+[Proposal Slide](link)
+
 ## What is electrochem id?
 
 ElectroChemID proposes the design, implementation, and validation of a low-cost potentiostat ASIC,developed using 
