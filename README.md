@@ -25,15 +25,11 @@ such as enzymes, antibodies, or functionalized materials. This approach, althoug
 it requires developing a completely different sensor for each application. Development times are extended, 
 manufacturing costs scale up, and the system's scalability is limited to what it was originally designed for.
 
-
-
-The project demonstrates that a simplified architecture based on moderate-resolution DAC and ADC converters (8 bits)is 
-capable of capturing electrochemical fingerprints characteristic of different substances. In a later phase, these
-signals will be exploited using artificial intelligence techniques for sample classification and characterization tasks.
-
-The signals obtained thru cyclic voltammetry using commercial screen-printed electrodes contain sufficient 
-discriminative information to allow sample classification using artificial intelligence algorithms, even when acquired 
-by an integrated potentiostat with a simplified architecture and moderate resolution.
+The project demonstrates that a simplified architecture based on moderate-resolution DAC and ADC converters (8 bits) is 
+capable of capturing electrochemical fingerprints characteristic of different substances through cyclic voltametry. The
+acquired signals contain sufficient discriminative information to enable sample classification an characterization using
+artificial intelligence algorithms, even when obtained with an integrated potensiostat of simplified architecture and 
+moderate resolution
 
 The project does NOT aim to compete with high-precision laboratory instrumentation. Its success is measured by the 
 ability to capture sufficient electrochemical information for classification tasks, not by the accuracy in the 
