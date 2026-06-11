@@ -5,17 +5,18 @@ An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprint
 
 ## Team members
 
-|Github name|Name|Experience|Role|
-|-----------|----|----------|----|
-|---|Erick Esau Castañon Huerta|Undergraduate|Member|
-|RobertoCuauhtemoc|Roberto Cuauhtémoc Gomez|Undergraduate|Member|
-|VidalArroyo19|Luis Vidal Guzman Arroyo|Undergraduate|Member|
-|marianaromero12|Mariana Romero Avendaño|Undergraduate|Member|
-|lucaalsi|Luis Carlos Alvarez Simón|Graduate|Team lead|
+|Name|Discord|Github|Experience|Role|
+|----|-------|------|----------|----|
+|Erick Esau Castañon|---|---|Undergraduate|Member|
+|Roberto Cuauhtémoc|---|RobertoCuauhtemoc|Undergraduate|Member|
+|Luis Vidal Guzman|---|VidalArroyo19|Undergraduate|Member|
+|Mariana Romero|---|marianaromero12|Undergraduate|Member|
+|Luis Carlos Alvarez|---|lucaalsi|Graduate|Team lead|
 
 ## Quick Links
 
 [Github repository](https://github.com/RobertoCuauhtemoc/B14-MX_UPP_INAOE)
+
 [Proposal Slide](link)
 
 ## What is electrochem id?
