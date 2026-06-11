@@ -16,7 +16,7 @@ An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprint
 
 [Github repository](https://github.com/RobertoCuauhtemoc/B14-MX_UPP_INAOE)
 
-[Proposal Slide](link)
+[Proposal Slide]()
 
 ## What is electrochem id?
 
