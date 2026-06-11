@@ -6,7 +6,7 @@ An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprint
 
 |Name|Discord|Github|Experience|Role|
 |----|-------|------|----------|----|
-|Erick Esau Castañon|---|---|Undergraduate|Member|
+|Erick Esau Castañon|---|erickcast369|Undergraduate|Member|
 |Roberto Cuauhtémoc|---|RobertoCuauhtemoc|Undergraduate|Member|
 |Luis Vidal Guzman|---|VidalArroyo19|Undergraduate|Member|
 |Mariana Romero|---|marianaromero12|Undergraduate|Member|
