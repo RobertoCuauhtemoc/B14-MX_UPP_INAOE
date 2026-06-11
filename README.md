@@ -56,9 +56,18 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 6. Validate experimentally the system's ability to distinguish different types of substances (once the chip is manufactured). Experimentally validate the system's ability to distinguish different types of substances (once the chip is manufactured).
 7. Demonstrate that a simplified and accessible integrated circuit architecture can enable electrochemical fingerprinting without relying on laboratory-grade instrumentation.
 
+
 ## Status
 
+|Block|Schematic|Simulation|Layout|LVS|
+|-----|---------|----------|------|---|
+|OPAMP (A1:A3)|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
+|DAC|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
+|ADC|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
+|UART|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
+
 - [ ] Schematic
+|
 - [ ] Simulation
 - [ ] Layout
 - [ ] LVS
