@@ -58,7 +58,7 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 
 ## Block diagram
 
-
+![Arquitectura](Images/diagrama.png)
 
 ## Status
 
