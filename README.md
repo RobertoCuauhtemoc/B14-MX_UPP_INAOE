@@ -48,4 +48,7 @@ quantification of specific analytes.
 - [ ] Layout
 - [ ] LVS
 
-## 
+## Goals
+
+1. Design and validate an integrated potentiostat capable of acquiring electrochemical fingerprints through cyclic voltammetry using commercial screen-printed electrodes.
+2. Demonstrate that a simplified and accessible integrated circuit architecture can enable electrochemical fingerprinting without relying on laboratory-grade instrumentation.
