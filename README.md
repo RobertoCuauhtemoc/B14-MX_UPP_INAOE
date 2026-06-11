@@ -6,11 +6,11 @@ An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprint
 
 |Name|Discord|Github|Experience|Role|
 |----|-------|------|----------|----|
-|Erick Esau Castañon|erickcastanon_11339|erickcast369|Undergraduate|Member|
-|Roberto Cuauhtémoc|robertocuauhtemoc|RobertoCuauhtemoc|Undergraduate|Member|
-|Luis Vidal Guzman|vidal07.02_57039|VidalArroyo19|Undergraduate|Member|
-|Mariana Romero|mariana09_12|marianaromero12|Undergraduate|Member|
-|Luis Carlos Alvarez|lcas_56805|lucaalsi|Graduate|Team lead|
+|Erick Esau Castañon|erickcastanon_11339|@erickcast369|Undergraduate|Member|
+|Roberto Cuauhtémoc|robertocuauhtemoc|@RobertoCuauhtemoc|Undergraduate|Member|
+|Luis Vidal Guzman|vidal07.02_57039|@VidalArroyo19|Undergraduate|Member|
+|Mariana Romero|mariana09_12|@marianaromero12|Undergraduate|Member|
+|Luis Carlos Alvarez|lcas_56805|@lucaalsi|Graduate|Team lead|
 
 ## Quick Links
 
@@ -56,6 +56,9 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 6. Validate experimentally the system's ability to distinguish different types of substances (once the chip is manufactured). Experimentally validate the system's ability to distinguish different types of substances (once the chip is manufactured).
 7. Demonstrate that a simplified and accessible integrated circuit architecture can enable electrochemical fingerprinting without relying on laboratory-grade instrumentation.
 
+## Block diagram
+
+
 
 ## Status
 
@@ -66,9 +69,5 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 |ADC|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
 |UART|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
 
-- [ ] Schematic
-|
-- [ ] Simulation
-- [ ] Layout
-- [ ] LVS
--
+## Component Specifications
+
