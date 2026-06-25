@@ -1,20 +1,19 @@
-## Team: B14-MX_UPP_INAOE <br>Project: ElectrochemID
+## Track: B <br>Team: B14 MX_UPP_INAOE <br>Project: ElectroChemID
 
-An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
+| Discord | Github | Affiliation (experience) | Role |
+|---|---|---|---|
+| lcas_56805 | @lucaalsi | INAOE (post-graduate) | Team lead, System integration |
+| vidal07.02_57039 | @VidalArroyo19 | Universidad Politécnica de Puebla (undergrad) | Amplifier desing |
+| erickcastanon_11339 | @erickcast369 | Universidad Politécnica de Puebla (undergrad) | Digital design |
+| robertocuauhtemoc | @RobertoCuauhtemoc | Universidad Politécnica de Puebla (undergrad) | ADC design |
+| mariana09_12 | @marianaromero12 | Universidad Politécnica de Puebla (undergrad) | DAC design |
+| dclementel_00 | @DClementeL | InnovaBienestar de México (post-graduate) | Digital design, System integration |
 
-## Team members
-
-|Name|Discord|Github|Experience|Role|
-|----|-------|------|----------|----|
-|Erick Esau Castañon|erickcastanon_11339|@erickcast369|Undergraduate|Member|
-|Roberto Cuauhtémoc|robertocuauhtemoc|@RobertoCuauhtemoc|Undergraduate|Member|
-|Luis Vidal Guzman|vidal07.02_57039|@VidalArroyo19|Undergraduate|Member|
-|Mariana Romero|mariana09_12|@marianaromero12|Undergraduate|Member|
-|Luis Carlos Alvarez|lcas_56805|@lucaalsi|Graduate|Team lead|
+Overview: An Open-Source Integrated Potentiostat for AI-Driven Electrochemical Fingerprinting and Sample Identification.
 
 ## Quick Links
 
-[Github repository](https://github.com/RobertoCuauhtemoc/B14-MX_UPP_INAOE)
+Team lead's repo: https://github.com/lucaalsi/B14-MX_UPP_INAOE
 
 [Proposal Slide](https://docs.google.com/presentation/d/1HJ1bf3CUU9R_t9hRro55_7mU0QH74gsTtS59VB3Pge4/edit?usp=sharing)
 
