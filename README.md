@@ -15,7 +15,7 @@ Overview: An Open-Source Integrated Potentiostat for AI-Driven Electrochemical F
 
 Team lead's repo: https://github.com/lucaalsi/B14-MX_UPP_INAOE
 
-[Proposal Slide](https://docs.google.com/presentation/d/1HJ1bf3CUU9R_t9hRro55_7mU0QH74gsTtS59VB3Pge4/edit?usp=sharing)
+[Proposal Slide](https://docs.google.com/presentation/d/14xknRmG7m8jUdFvSzHqfR4pjAhqFaHPP/edit?usp=sharing&ouid=112671528064079631620&rtpof=true&sd=true)
 
 ## What is electrochem id?
 
