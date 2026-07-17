@@ -26,7 +26,7 @@ portability, and standard three-electrode configuration (WE, CE, RE).
 
 ## Context 
 
-Conventional electrochemical sensors are designed to detect a single specific moleculeusing biorecognition elements
+Conventional electrochemical sensors are designed to detect a single specific molecule using biorecognition elements
 such as enzymes, antibodies, or functionalized materials. This approach, although precise, involves an enormous cost:
 it requires developing a completely different sensor for each application. Development times are extended, 
 manufacturing costs scale up, and the system's scalability is limited to what it was originally designed for.
@@ -63,11 +63,60 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 
 |Block|Schematic|Simulation|Layout|LVS|
 |-----|---------|----------|------|---|
-|OPAMP (A1:A3)|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
-|DAC|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
-|ADC|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
-|UART|  ⏳  |  ⏳  |  ⏳  |  ⏳  |
+|OPAMP (A1:A3)|✅|  ✅    |  ⏳  |⏳|
+|BIAS |   ✅    |   ✅    |  ⏳  |⏳|
+|POTENCIOSTAT|✅|   ✅    |  ⏳  |⏳|
+|COMPARATOR| ✅ |   ✅    |  ⏳  |⏳|
+|DAC  |   ✅    |   ✅    |  ⏳  |⏳|
+|ADC  |   ✅    |   ✅    |  ⏳  |⏳|
+|UART |   ⏳    |   ⏳    |  ⏳  |⏳|
 
 ## Component Specifications
 
-loading...
+**AMPLIFIER CIRCUIT**
+
+Design Objectives:
+
+Input Offset Voltage: ≤ 2 mV
+CMRR: ≥ 80 dB
+Open-loop Gain: ≥ 60 dB
+Gain Bandwidth: 3 MHz
+
+**DAC CIRCUIT**
+
+Design Objectives:
+ # bits: 8 bits
+Resolution: ≥ 10 mV/bit
+Output Range: 1.5 to 3.5 V
+Settling Time: ≤ 1 ms 
+Integral Non-linearity (INL): ≤ 0.5% 
+Differential Non-linearity (DNL): ≤ 10 mV
+Gain and Offset Error: ≤ 10 mV
+Speed: ≥ 700 Hz
+
+**ADC CIRCUIT**
+
+Design Objectives:
+Resolution: 8 bits
+Input Range: 0.5 to 4.5 V
+Conversion Time: ≤ 1 ms
+Offset Error: ≤ 1 LSB
+Gain Error: ≤ 1 LSB
+
+**TIA Circuit**
+
+Design Objectives:
+Transimpedance Gain: 5.4 kΩ
+Output Voltage Range: 0.5 to 4.5 V
+
+**TOP LEVEL CIRCUIT**
+
+Potentiostat System / Specifications
+
+Current Range: ± 500 µA
+Applied Potential: ± 1 V
+DAC: 8 bits
+ADC: 8 bits
+TIA Gain: Externally variable (5.4 kΩ)
+Communication Block: UART
+
