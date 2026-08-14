@@ -63,10 +63,10 @@ Design, implement, and validate a potentiostat integrated circuit using open-sou
 
 |Block|Schematic|Simulation|Layout|LVS|
 |-----|---------|----------|------|---|
-|OPAMP (A1:A3)|✅|  ✅    |  ⏳  |⏳|
-|BIAS |   ✅    |   ✅    |  ⏳  |⏳|
+|OPAMP (A1:A3)|✅|  ✅    |  ✅  |✅|
+|BIAS |   ✅    |   ✅    |  ✅ |✅|
 |POTENCIOSTAT|✅|   ✅    |  ⏳  |⏳|
-|COMPARATOR| ✅ |   ✅    |  ⏳  |⏳|
+|COMPARATOR| ✅ |   ✅    |  ✅  |✅|
 |DAC  |   ✅    |   ✅    |  ⏳  |⏳|
 |ADC  |   ✅    |   ✅    |  ⏳  |⏳|
-|UART |   ⏳    |   ⏳    |  ⏳  |⏳|
+|UART |   ✅    |   ✅    |  ✅  |⏳|
