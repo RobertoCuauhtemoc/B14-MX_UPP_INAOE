@@ -1,0 +1,18 @@
+read_verilog -sv fsm_sar.v
+
+hierarchy -top fsm_sar
+
+proc
+opt
+fsm
+opt
+
+memory
+opt
+
+techmap
+opt
+
+check
+
+write_verilog -noattr fsm_sar_netlist.v

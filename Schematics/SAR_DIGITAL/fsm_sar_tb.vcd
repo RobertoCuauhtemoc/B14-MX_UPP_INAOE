@@ -1,0 +1,243 @@
+$date
+	Mon Aug 10 19:04:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module fsm_sar_tb $end
+$var wire 1 ! sample $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # eoc $end
+$var wire 8 $ dac [7:0] $end
+$var parameter 32 % clk_cycle $end
+$var reg 1 & clk $end
+$var reg 1 ' cmp $end
+$var reg 1 ( rst $end
+$var reg 1 ) start $end
+$scope module dut $end
+$var wire 1 & clk_i $end
+$var wire 1 ' cmp_i $end
+$var wire 8 * dac_o [7:0] $end
+$var wire 1 ( rst_i $end
+$var wire 1 ) start_i $end
+$var parameter 32 + Width $end
+$var parameter 2 , s0 $end
+$var parameter 2 - s1 $end
+$var parameter 2 . s2 $end
+$var parameter 2 / s3 $end
+$var reg 1 0 enable $end
+$var reg 1 # eoc_o $end
+$var reg 8 1 mask_next [7:0] $end
+$var reg 8 2 mask_reg [7:0] $end
+$var reg 8 3 res_next [7:0] $end
+$var reg 8 4 res_reg [7:0] $end
+$var reg 8 5 result_o [7:0] $end
+$var reg 1 ! sample_o $end
+$var reg 2 6 state_next [1:0] $end
+$var reg 2 7 state_reg [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 /
+b10 .
+b1 -
+b0 ,
+b1000 +
+b1010 %
+$end
+#0
+$dumpvars
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+00
+b0 *
+0)
+1(
+0'
+0&
+b0 $
+1#
+b0 "
+0!
+$end
+#50
+1&
+#100
+0&
+0(
+#150
+1&
+#200
+0&
+#250
+1&
+#300
+b1 6
+1#
+0&
+1)
+#350
+b10000000 1
+1!
+b10 6
+0#
+b1 7
+1&
+#400
+b10 6
+b10000000 1
+1!
+0&
+0)
+#450
+b10000000 $
+b10000000 *
+b1000000 1
+0!
+b10000000 2
+b10 7
+1&
+#500
+0&
+#550
+b100000 1
+b1000000 $
+b1000000 *
+b1000000 2
+1&
+#600
+b1000000 3
+b100000 1
+1'
+0&
+#650
+b1100000 3
+b10000 1
+b1100000 $
+b1100000 *
+b1000000 4
+b100000 2
+1&
+#700
+b1000000 3
+b10000 1
+0'
+0&
+#750
+b1000 1
+b1010000 $
+b1010000 *
+b10000 2
+1&
+#800
+b1010000 3
+b1000 1
+1'
+0&
+#850
+b1011000 3
+b100 1
+b1011000 $
+b1011000 *
+b1010000 4
+b1000 2
+1&
+#900
+b1010000 3
+b100 1
+0'
+0&
+#950
+b10 1
+b1010100 $
+b1010100 *
+b100 2
+1&
+#1000
+b1010100 3
+b10 1
+1'
+0&
+#1050
+b1010110 3
+b1 1
+b1010110 $
+b1010110 *
+b1010100 4
+b10 2
+1&
+#1100
+b1010100 3
+b1 1
+0'
+0&
+#1150
+b11 6
+b0 1
+b1010101 $
+b1010101 *
+b1 2
+1&
+#1200
+b1010101 3
+b11 6
+b0 1
+1'
+0&
+#1250
+10
+b0 6
+b1010101 4
+b0 2
+b11 7
+1&
+#1300
+b0 6
+10
+0'
+0&
+#1350
+1#
+00
+b0 7
+b1010101 "
+b1010101 5
+1&
+#1400
+1#
+1'
+0&
+#1450
+1&
+#1500
+1#
+0'
+0&
+#1550
+1&
+#1600
+1#
+1'
+0&
+#1650
+1&
+#1700
+0&
+#1750
+1&
+#1800
+0&
+#1850
+1&
+#1900
+0&
