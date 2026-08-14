@@ -1,0 +1,46 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=primitive
+format="@name [ @@clk_i @@rst_i @@start_i @@cmp_i ] [ @@result_o[7..0] @@dac_o[7..0] @@sample_o @@eoc_o ] @model"
+template="name=A1 model=fsm_sar_model"
+device_model=".model fsm_sar_model d_cosim simulation=\\"ivlng\\" sim_args=[\\"/foss/designs/fsm_sar_cosim/fsm_sar\\"] delay=0"
+}
+V {}
+S {}
+F {}
+E {}
+
+L 4 -180 -60 -120 -60 {}
+L 4 -180 -20 -120 -20 {}
+L 4 -180 20 -120 20 {}
+L 4 -180 60 -120 60 {}
+
+L 4 120 -60 180 -60 {}
+L 4 120 -20 180 -20 {}
+L 4 120 20 180 20 {}
+L 4 120 60 180 60 {}
+
+B 5 -182.5 -62.5 -177.5 -57.5 {name=clk_i dir=in}
+B 5 -182.5 -22.5 -177.5 -17.5 {name=rst_i dir=in}
+B 5 -182.5 17.5 -177.5 22.5 {name=start_i dir=in}
+B 5 -182.5 57.5 -177.5 62.5 {name=cmp_i dir=in}
+
+B 5 177.5 -62.5 182.5 -57.5 {name=result_o[7..0] dir=out}
+B 5 177.5 -22.5 182.5 -17.5 {name=dac_o[7..0] dir=out}
+B 5 177.5 17.5 182.5 22.5 {name=sample_o dir=out}
+B 5 177.5 57.5 182.5 62.5 {name=eoc_o dir=out}
+
+P 4 5 -120 -80 120 -80 120 80 -120 80 -120 -80 {}
+
+T {clk_i} -110 -70 0 0 0.4 0.4 {}
+T {rst_i} -110 -30 0 0 0.4 0.4 {}
+T {start_i} -110 10 0 0 0.4 0.4 {}
+T {cmp_i} -110 50 0 0 0.4 0.4 {}
+
+T {result_o[7..0]} 110 -70 0 1 0.4 0.4 {}
+T {dac_o[7..0]} 110 -30 0 1 0.4 0.4 {}
+T {sample_o} 110 10 0 1 0.4 0.4 {}
+T {eoc_o} 110 50 0 1 0.4 0.4 {}
+
+T {@symname} -120 -110 0 0 0.4 0.4 {}
+T {@name} -120 90 0 0 0.4 0.4 {}
