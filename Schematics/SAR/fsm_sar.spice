@@ -1,0 +1,450 @@
+* NGSPICE file created from fsm_sar.ext - technology: gf180mcuD
+
+.subckt gf180mcu_as_sc_mcu7t3v3__mux2_2 VDD VSS S B A Y VNW VPW
+X0 a_744_440# S a_464_68# VNW pfet_03v3 ad=0.1932p pd=1.66u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 VDD A a_744_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.1932p ps=1.66u w=1.38u l=0.28u
+X2 a_332_440# B VDD VNW pfet_03v3 ad=0.6762p pd=2.36u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 a_464_68# S a_332_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.19p ps=1.38u w=1u l=0.28u
+X4 VSS S a_28_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X5 Y a_464_68# VDD VNW pfet_03v3 ad=0.3726p pd=1.92u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X6 Y a_464_68# VSS VPW nfet_03v3 ad=0.27p pd=1.54u as=0.26p ps=1.52u w=1u l=0.28u
+X7 VSS A a_624_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=1.88u w=1u l=0.28u
+X8 VDD a_464_68# Y VNW pfet_03v3 ad=0.828p pd=3.96u as=0.3726p ps=1.92u w=1.38u l=0.28u
+X9 VSS a_464_68# Y VPW nfet_03v3 ad=0.6p pd=3.2u as=0.27p ps=1.54u w=1u l=0.28u
+X10 a_464_68# a_28_68# a_332_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6762p ps=2.36u w=1.38u l=0.28u
+X11 VDD S a_28_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X12 a_624_68# a_28_68# a_464_68# VPW nfet_03v3 ad=0.44p pd=1.88u as=0.26p ps=1.52u w=1u l=0.28u
+X13 a_332_68# B VSS VPW nfet_03v3 ad=0.19p pd=1.38u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__dfsrtp_2 VDD VSS CLK Q RN SN D VNW VPW
+X0 a_332_68# a_28_68# VDD VNW pfet_03v3 ad=0.6693p pd=3.73u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 a_1430_68# a_1356_395# a_1314_68# VPW nfet_03v3 ad=0.215p pd=1.43u as=0.15p ps=1.3u w=1u l=0.28u
+X2 a_1118_440# a_28_68# a_833_440# VNW pfet_03v3 ad=0.8211p pd=2.57u as=0.7866p ps=2.52u w=1.38u l=0.285u
+X3 VSS CLK a_28_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X4 a_1356_395# SN a_1794_68# VPW nfet_03v3 ad=0.48p pd=1.96u as=0.405p ps=1.81u w=1u l=0.28u
+X5 VSS a_3062_24# Q VPW nfet_03v3 ad=0.615p pd=3.23u as=0.26p ps=1.52u w=1u l=0.28u
+X6 VSS a_3062_24# a_2951_68# VPW nfet_03v3 ad=0.38p pd=1.76u as=0.2775p ps=1.555u w=1u l=0.28u
+X7 a_1794_68# a_833_440# VSS VPW nfet_03v3 ad=0.405p pd=1.81u as=0.415p ps=1.83u w=1u l=0.28u
+X8 a_2447_68# a_28_68# a_2260_68# VPW nfet_03v3 ad=1.23p pd=4.46u as=0.3275p ps=1.655u w=1u l=0.28u
+X9 a_639_68# D VDD VNW pfet_03v3 ad=0.4554p pd=2.04u as=0.7107p ps=3.79u w=1.38u l=0.285u
+X10 VDD a_3062_24# a_2447_68# VNW pfet_03v3 ad=0.4554p pd=2.04u as=0.45195p ps=2.035u w=1.38u l=0.28u
+X11 VDD a_833_440# a_1356_395# VNW pfet_03v3 ad=0.5037p pd=2.11u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X12 a_2447_68# a_332_68# a_2260_68# VNW pfet_03v3 ad=0.8487p pd=3.99u as=0.44505p ps=2.025u w=1.38u l=0.28u
+X13 VDD a_1356_395# a_1118_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.8211p ps=2.57u w=1.38u l=0.28u
+X14 Q a_3062_24# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X15 Q a_3062_24# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X16 a_2447_68# SN VDD VNW pfet_03v3 ad=0.45195p pd=2.035u as=0.7452p ps=3.84u w=1.38u l=0.28u
+X17 VSS RN a_1430_68# VPW nfet_03v3 ad=0.415p pd=1.83u as=0.215p ps=1.43u w=1u l=0.28u
+X18 a_639_68# D VSS VPW nfet_03v3 ad=0.62p pd=2.24u as=0.49p ps=2.98u w=1u l=0.28u
+X19 a_833_440# a_28_68# a_639_68# VPW nfet_03v3 ad=0.7875p pd=2.575u as=0.62p ps=2.24u w=1u l=0.28u
+X20 a_2260_68# a_28_68# a_1356_395# VNW pfet_03v3 ad=0.44505p pd=2.025u as=0.89355p ps=2.675u w=1.38u l=0.28u
+X21 VDD a_2260_68# a_3062_24# VNW pfet_03v3 ad=0.8211p pd=3.95u as=0.4485p ps=2.03u w=1.38u l=0.28u
+X22 a_3062_24# RN VDD VNW pfet_03v3 ad=0.4485p pd=2.03u as=0.4554p ps=2.04u w=1.38u l=0.28u
+X23 a_833_440# a_332_68# a_639_68# VNW pfet_03v3 ad=0.7866p pd=2.52u as=0.4554p ps=2.04u w=1.38u l=0.28u
+X24 VDD a_3062_24# Q VNW pfet_03v3 ad=0.8487p pd=3.99u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X25 a_1118_440# RN VDD VNW pfet_03v3 ad=0.6279p pd=3.67u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X26 a_2260_68# a_332_68# a_1356_395# VPW nfet_03v3 ad=0.3275p pd=1.655u as=0.48p ps=1.96u w=1u l=0.28u
+X27 a_3062_24# a_2260_68# a_3326_68# VPW nfet_03v3 ad=0.505p pd=3.01u as=0.325p ps=1.65u w=1u l=0.28u
+X28 a_1356_395# SN VDD VNW pfet_03v3 ad=0.89355p pd=2.675u as=0.5037p ps=2.11u w=1.38u l=0.28u
+X29 a_1314_68# a_332_68# a_833_440# VPW nfet_03v3 ad=0.15p pd=1.3u as=0.7875p ps=2.575u w=1u l=0.28u
+X30 a_2951_68# SN a_2447_68# VPW nfet_03v3 ad=0.2775p pd=1.555u as=0.61p ps=3.22u w=1u l=0.28u
+X31 VDD CLK a_28_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X32 a_3326_68# RN VSS VPW nfet_03v3 ad=0.325p pd=1.65u as=0.38p ps=1.76u w=1u l=0.28u
+X33 a_332_68# a_28_68# VSS VPW nfet_03v3 ad=0.485p pd=2.97u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__or2_2 VDD VSS B A Y VNW VPW
+X0 VDD B a_172_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 a_28_440# A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y a_28_440# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 VSS a_28_440# Y VPW nfet_03v3 ad=0.52p pd=3.04u as=0.26p ps=1.52u w=1u l=0.28u
+X4 VDD a_28_440# Y VNW pfet_03v3 ad=0.7176p pd=3.8u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 Y a_28_440# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X6 a_172_440# A a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X7 VSS B a_28_440# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__fillcap_16 VDD VSS VNW VPW
+X0 a_126_406# a_28_498# VSS VPW nfet_03v3 ad=0.4356p pd=2.86u as=0.4851p ps=2.96u w=0.99u l=7.75u
+X1 VDD a_126_406# a_28_498# VNW pfet_03v3 ad=0.4796p pd=3.06u as=0.5341p ps=3.16u w=1.09u l=7.75u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__and2_2 VDD VSS B A Y VNW VPW
+X0 VDD B a_28_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 a_172_68# A a_28_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y a_28_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 VSS a_28_68# Y VPW nfet_03v3 ad=0.52p pd=3.04u as=0.26p ps=1.52u w=1u l=0.28u
+X4 VDD a_28_68# Y VNW pfet_03v3 ad=0.7176p pd=3.8u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 Y a_28_68# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X6 a_28_68# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X7 VSS B a_172_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__fillcap_8 VDD VSS VNW VPW
+X0 a_126_406# a_28_498# VSS VPW nfet_03v3 ad=0.4356p pd=2.86u as=0.4851p ps=2.96u w=0.99u l=3.27u
+X1 VDD a_126_406# a_28_498# VNW pfet_03v3 ad=0.4796p pd=3.06u as=0.5341p ps=3.16u w=1.09u l=3.27u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__fillcap_4 VDD VSS VNW VPW
+X0 a_126_408# a_28_500# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.49p ps=2.98u w=1u l=1.03u
+X1 VDD a_126_408# a_28_500# VNW pfet_03v3 ad=0.4752p pd=3.04u as=0.5292p ps=3.14u w=1.08u l=1.03u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__inv_2 VDD VSS Y A VNW VPW
+X0 VDD A Y VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X3 VSS A Y VPW nfet_03v3 ad=0.44p pd=2.88u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__tieh_4 VDD VSS ONE VNW VPW
+X0 a_112_319# a_112_319# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=0.28u
+X1 ONE a_112_319# VDD VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.6072p ps=3.64u w=1.38u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__clkbuff_12 VDD VSS A Y VNW VPW
+X0 VSS a_172_68# Y VPW nfet_03v3 ad=0.7092p pd=3.41u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X1 VSS a_172_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X2 VDD A a_172_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 Y a_172_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X4 Y a_172_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 VDD a_172_68# Y VNW pfet_03v3 ad=1.3593p pd=4.73u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X6 a_172_68# A VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.3168p ps=2.32u w=0.72u l=0.28u
+X7 VSS a_172_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X8 VDD a_172_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X9 Y a_172_68# VDD VNW pfet_03v3 ad=0.36915p pd=1.915u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X10 VDD a_172_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X11 Y a_172_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X12 Y a_172_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X13 Y a_172_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X14 Y a_172_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X15 a_172_68# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X16 VSS a_172_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X17 VDD a_172_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X18 VSS A a_172_68# VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X19 VSS a_172_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X20 VSS a_172_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1926p ps=1.255u w=0.72u l=0.28u
+X21 VDD A a_172_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X22 Y a_172_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X23 Y a_172_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X24 a_172_68# A VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X25 Y a_172_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X26 VDD a_172_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X27 Y a_172_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X28 a_172_68# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X29 VDD a_172_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.36915p ps=1.915u w=1.38u l=0.28u
+X30 VSS A a_172_68# VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X31 Y a_172_68# VSS VPW nfet_03v3 ad=0.1926p pd=1.255u as=0.1872p ps=1.24u w=0.72u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__ao31_2 VDD VSS D A B C Y VNW VPW
+X0 VSS a_28_440# Y VPW nfet_03v3 ad=0.44p pd=2.88u as=0.26p ps=1.52u w=1u l=0.28u
+X1 VDD A a_172_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X2 Y a_28_440# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 a_28_440# D VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X4 Y a_28_440# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X5 a_172_440# B VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X6 VDD a_28_440# Y VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X7 VSS C a_492_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X8 VDD C a_172_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X9 a_492_68# B a_332_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X10 a_172_440# D a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X11 a_332_68# A a_28_440# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__nor3_2 VDD VSS A B C Y VNW VPW
+X0 a_28_440# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 a_492_440# C Y VNW pfet_03v3 ad=0.621p pd=3.66u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 VSS C Y VPW nfet_03v3 ad=0.45p pd=2.9u as=0.26p ps=1.52u w=1u l=0.28u
+X4 a_492_440# B a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 VSS B Y VPW nfet_03v3 ad=0.58p pd=2.16u as=0.26p ps=1.52u w=1u l=0.28u
+X6 a_28_440# B a_492_440# VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X7 Y C a_492_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X8 Y C VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.58p ps=2.16u w=1u l=0.28u
+X9 Y B VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X10 VDD A a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X11 VSS A Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__ao21_2 VDD VSS Y A B C VNW VPW
+X0 VSS a_332_68# Y VPW nfet_03v3 ad=0.44p pd=2.88u as=0.3025p ps=1.605u w=1u l=0.28u
+X1 a_28_440# B VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X2 a_172_68# A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X3 a_332_68# C a_28_440# VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X4 Y a_332_68# VDD VNW pfet_03v3 ad=0.41745p pd=1.985u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X5 VSS C a_332_68# VPW nfet_03v3 ad=0.58p pd=2.16u as=0.26p ps=1.52u w=1u l=0.28u
+X6 Y a_332_68# VSS VPW nfet_03v3 ad=0.3025p pd=1.605u as=0.58p ps=2.16u w=1u l=0.28u
+X7 VDD a_332_68# Y VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.41745p ps=1.985u w=1.38u l=0.28u
+X8 VDD A a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X9 a_332_68# B a_172_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__nor2_2 VDD VSS Y B A VNW VPW
+X0 a_28_440# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y B a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 VSS B Y VPW nfet_03v3 ad=0.515p pd=3.03u as=0.26p ps=1.52u w=1u l=0.28u
+X4 a_28_440# B Y VNW pfet_03v3 ad=0.7176p pd=3.8u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 Y B VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X6 VDD A a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X7 VSS A Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__aoi21b_2 VDD VSS Y C B A VNW VPW
+X0 a_364_440# C Y VNW pfet_03v3 ad=0.621p pd=3.66u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y B a_508_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X2 VSS C Y VPW nfet_03v3 ad=0.45p pd=2.9u as=0.26p ps=1.52u w=1u l=0.28u
+X3 a_220_68# A VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.47p ps=2.94u w=1u l=0.28u
+X4 a_508_68# a_220_68# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X5 a_220_68# A VDD VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.6348p ps=3.68u w=1.38u l=0.28u
+X6 VDD a_220_68# a_364_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X7 a_364_440# a_220_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X8 Y C VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X9 Y C a_364_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X10 VSS a_220_68# a_828_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X11 a_364_440# B VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X12 a_828_68# B Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X13 VDD B a_364_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+.ends
+
+.subckt fsm_sar VDD dac_o[0] dac_o[1] VSS dac_o[2] clk_i cmp_i dac_o[3] rst_i dac_o[4] start_i
++ dac_o[5] dac_o[6] dac_o[7] eoc_o result_o[0] result_o[1] result_o[2] result_o[3] result_o[4]
++ result_o[5] result_o[6] result_o[7] sample_o 
+X_131_ VDD VSS _131_/S _204_/Q _131_/A _204_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_200_ VDD VSS _214_/CLK _200_/Q _172_/Y _200_/SN _200_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_114_ VDD VSS _201_/Q _209_/Q dac_o[5] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+XFILLER_6_45 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_130_ VDD VSS dac_o[0] _213_/Q _131_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_3_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_0_36 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_113_ VDD VSS _131_/S _210_/Q _113_/A _210_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_12_89 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_5_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_189_ VDD VSS _215_/CLK result_o[1] _161_/Y _189_/SN _189_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_112_ VDD VSS dac_o[6] _213_/Q _113_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_19_130 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_3_26 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_188_ VDD VSS _215_/CLK result_o[0] _104_/Y _188_/SN _188_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_111_ VDD VSS _202_/Q _210_/Q dac_o[6] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+X_187_ VDD VSS _187_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_1_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_110_ VDD VSS _131_/S _211_/Q _110_/A _211_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_239_ VDD VSS _208_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_12_37 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_0_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_186_ VDD VSS _186_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_1_72 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_1_50 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_169_ VDD VSS _169_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_238_ VDD VSS _200_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_19_111 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xclkbuf_1_0__f_clk_i VDD VSS clkbuf_0_clk_i/Y _215_/CLK VDD VSS gf180mcu_as_sc_mcu7t3v3__clkbuff_12
+XFILLER_3_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_185_ VDD VSS _185_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_18_37 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_168_ VDD VSS _168_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_237_ VDD VSS _213_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_8_100 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_5_114 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_184_ VDD VSS _184_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_167_ VDD VSS _167_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_236_ VDD VSS _201_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_19_146 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_19_70 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_219_ VDD VSS _206_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_4_96 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_183_ VDD VSS _183_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_235_ VDD VSS _209_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_166_ VDD VSS _166_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_218_ VDD VSS _196_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_149_ VDD VSS _215_/Q _210_/Q result_o[6] _194_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_182_ VDD VSS _182_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_18_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_165_ VDD VSS _165_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_234_ VDD VSS _202_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_217_ VDD VSS _188_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_148_ VDD VSS _215_/Q _211_/Q result_o[7] _195_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_18_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_5_106 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_1_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_181_ VDD VSS _181_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_1_66 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_164_ VDD VSS _164_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_233_ VDD VSS _214_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_19_138 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_147_ VDD VSS _147_/D _197_/Q _213_/Q _159_/C _196_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_216_ VDD VSS _197_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_7_76 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_180_ VDD VSS _180_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_13_42 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_8_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_163_ VDD VSS _163_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_232_ VDD VSS _189_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_1_34 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_19_52 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_10_10 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_215_ VDD VSS _215_/CLK _215_/Q _187_/Y _215_/SN _215_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_146_ VDD VSS _146_/B _196_/Q _147_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_15_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_129_ VDD VSS _196_/Q _204_/Q dac_o[0] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+Xclkbuf_0_clk_i VDD VSS clk_i clkbuf_0_clk_i/Y VDD VSS gf180mcu_as_sc_mcu7t3v3__clkbuff_12
+X_162_ VDD VSS _162_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_231_ VDD VSS _203_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_19_86 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_145_ VDD VSS _145_/D _198_/Q _213_/Q _159_/C _197_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_214_ VDD VSS _214_/CLK _214_/Q _186_/Y _214_/SN _214_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_128_ VDD VSS _131_/S _205_/Q _128_/A _205_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_16_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_230_ VDD VSS _190_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_161_ VDD VSS _161_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_144_ VDD VSS _146_/B _197_/Q _145_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+X_213_ VDD VSS _214_/CLK _213_/Q _185_/Y _213_/SN _213_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_127_ VDD VSS dac_o[1] _213_/Q _128_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_6_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_160_ VDD VSS _215_/Q _213_/Q _214_/Q eoc_o VDD VSS gf180mcu_as_sc_mcu7t3v3__nor3_2
+X_143_ VDD VSS _143_/D _199_/Q _213_/Q _159_/C _198_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_212_ VDD VSS _214_/CLK _212_/Q _212_/RN _184_/Y _212_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_126_ VDD VSS _197_/Q _205_/Q dac_o[1] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+X_109_ VDD VSS dac_o[7] _213_/Q _110_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_5_80 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_142_ VDD VSS _146_/B _198_/Q _143_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+X_211_ VDD VSS _214_/CLK _211_/Q _183_/Y _211_/SN _211_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_125_ VDD VSS _131_/S _206_/Q _125_/A _206_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_108_ VDD VSS _203_/Q _211_/Q dac_o[7] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+XFILLER_7_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_14_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_141_ VDD VSS _141_/D _200_/Q _213_/Q _159_/C _199_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_210_ VDD VSS _214_/CLK _210_/Q _182_/Y _210_/SN _210_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_124_ VDD VSS dac_o[2] _213_/Q _125_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_11_80 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_107_ VDD VSS _131_/S _213_/Q cmp_i _146_/B VDD VSS gf180mcu_as_sc_mcu7t3v3__ao21_2
+XFILLER_1_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_19_36 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_4_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_140_ VDD VSS _146_/B _199_/Q _141_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+X_123_ VDD VSS _198_/Q _206_/Q dac_o[2] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+X_106_ VDD VSS _212_/Q _215_/Q _146_/B VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+XFILLER_4_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_5_72 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_14_92 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_199_ VDD VSS _214_/CLK _199_/Q _171_/Y _199_/SN _199_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_122_ VDD VSS _131_/S _207_/Q _122_/A _207_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_105_ VDD VSS _159_/C _212_/Q _215_/Q VDD VSS gf180mcu_as_sc_mcu7t3v3__nor2_2
+XFILLER_12_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_198_ VDD VSS _215_/CLK _198_/Q _170_/Y _198_/SN _198_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_121_ VDD VSS dac_o[3] _213_/Q _122_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_11_61 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_104_ VDD VSS _104_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_11_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_197_ VDD VSS _215_/CLK _197_/Q _169_/Y _197_/SN _197_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+XFILLER_2_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_120_ VDD VSS _199_/Q _207_/Q dac_o[3] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+XFILLER_16_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_103_ VDD VSS _158_/A _196_/Q VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_19_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_196_ VDD VSS _215_/CLK _196_/Q _168_/Y _196_/SN _196_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_179_ VDD VSS _179_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_10_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_195_ VDD VSS _214_/CLK result_o[7] _167_/Y _195_/SN _195_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_178_ VDD VSS _178_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_18_107 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_2_45 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_194_ VDD VSS _214_/CLK result_o[6] _166_/Y _194_/SN _194_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_177_ VDD VSS _177_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_0_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_229_ VDD VSS _210_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_17_86 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_193_ VDD VSS _215_/CLK result_o[5] _165_/Y _193_/SN _193_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_176_ VDD VSS _176_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_228_ VDD VSS _191_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+XFILLER_8_89 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_159_ VDD VSS _212_/D _159_/C start_i _215_/Q VDD VSS gf180mcu_as_sc_mcu7t3v3__aoi21b_2
+XFILLER_0_146 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_192_ VDD VSS _215_/CLK result_o[4] _164_/Y _192_/SN _192_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+XFILLER_14_123 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_175_ VDD VSS _175_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_19_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_227_ VDD VSS _204_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_158_ VDD VSS _213_/D _158_/A _213_/Q _214_/Q VDD VSS gf180mcu_as_sc_mcu7t3v3__ao21_2
+X_191_ VDD VSS _215_/CLK result_o[3] _163_/Y _191_/SN _191_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+XFILLER_2_37 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_243_ VDD VSS _207_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_174_ VDD VSS _174_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_226_ VDD VSS _192_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_157_ VDD VSS start_i _212_/Q _214_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_17_34 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_0_70 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_9_90 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_209_ VDD VSS _214_/CLK _209_/Q _181_/Y _209_/SN _209_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_190_ VDD VSS _215_/CLK result_o[2] _162_/Y _190_/SN _190_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_242_ VDD VSS _198_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_173_ VDD VSS _173_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_3_81 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_225_ VDD VSS _215_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_156_ VDD VSS _213_/Q _196_/Q _215_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_3_146 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_139_ VDD VSS _139_/D _201_/Q _213_/Q _159_/C _200_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_208_ VDD VSS _214_/CLK _208_/Q _180_/Y _208_/SN _208_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+XFILLER_0_138 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_241_ VDD VSS _212_/RN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_172_ VDD VSS _172_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+X_155_ VDD VSS _215_/Q _204_/Q result_o[0] _188_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_224_ VDD VSS _193_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_207_ VDD VSS _215_/CLK _207_/Q _179_/Y _207_/SN _207_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_138_ VDD VSS _146_/B _200_/Q _139_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_17_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_0_128 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_14_37 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_2_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_17_146 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_240_ VDD VSS _199_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_171_ VDD VSS _171_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_9_120 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_9_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_223_ VDD VSS _205_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_154_ VDD VSS _215_/Q _205_/Q result_o[1] _189_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_206_ VDD VSS _215_/CLK _206_/Q _178_/Y _206_/SN _206_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_137_ VDD VSS _137_/D _202_/Q _213_/Q _159_/C _201_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+XFILLER_9_82 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+XFILLER_11_39 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_7_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_170_ VDD VSS _170_/Y rst_i VDD VSS gf180mcu_as_sc_mcu7t3v3__inv_2
+XFILLER_14_139 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xclkbuf_1_1__f_clk_i VDD VSS clkbuf_0_clk_i/Y _214_/CLK VDD VSS gf180mcu_as_sc_mcu7t3v3__clkbuff_12
+X_153_ VDD VSS _215_/Q _206_/Q result_o[2] _190_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_222_ VDD VSS _194_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_205_ VDD VSS _215_/CLK _205_/Q _177_/Y _205_/SN _205_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_136_ VDD VSS _146_/B _201_/Q _137_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_0_52 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_119_ VDD VSS _131_/S _208_/Q _119_/A _208_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_15_82 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_14_107 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+XFILLER_9_111 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_221_ VDD VSS _211_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_152_ VDD VSS _215_/Q _207_/Q result_o[3] _191_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+X_204_ VDD VSS _215_/CLK _204_/Q _176_/Y _204_/SN _204_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_135_ VDD VSS _135_/D _203_/Q _213_/Q _159_/C _202_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__ao31_2
+X_118_ VDD VSS dac_o[4] _213_/Q _119_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+XFILLER_15_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_16
+X_220_ VDD VSS _195_/SN VDD VSS gf180mcu_as_sc_mcu7t3v3__tieh_4
+X_151_ VDD VSS _215_/Q _208_/Q result_o[4] _192_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_17_18 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+X_203_ VDD VSS _214_/CLK _203_/Q _175_/Y _203_/SN _203_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_134_ VDD VSS _146_/B _202_/Q _135_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+X_117_ VDD VSS _200_/Q _208_/Q dac_o[4] VDD VSS gf180mcu_as_sc_mcu7t3v3__or2_2
+XFILLER_13_142 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_150_ VDD VSS _215_/Q _209_/Q result_o[5] _193_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_5_2 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_133_ VDD VSS _203_/D _203_/Q _146_/B sample_o VDD VSS gf180mcu_as_sc_mcu7t3v3__ao21_2
+X_202_ VDD VSS _214_/CLK _202_/Q _174_/Y _202_/SN _202_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_116_ VDD VSS _131_/S _209_/Q _116_/A _209_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__mux2_2
+XFILLER_15_63 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_4
+XFILLER_9_103 VDD VSS VDD VSS gf180mcu_as_sc_mcu7t3v3__fillcap_8
+X_132_ VDD VSS sample_o _146_/B _213_/Q VDD VSS gf180mcu_as_sc_mcu7t3v3__nor2_2
+X_201_ VDD VSS _214_/CLK _201_/Q _173_/Y _201_/SN _201_/D VDD VSS gf180mcu_as_sc_mcu7t3v3__dfsrtp_2
+X_115_ VDD VSS dac_o[5] _213_/Q _116_/A VDD VSS gf180mcu_as_sc_mcu7t3v3__and2_2
+C0 VDD VSS -0.31417p
+.ends
+
